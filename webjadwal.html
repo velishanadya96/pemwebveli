@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sistem Informasi Jadwal Dokter</title>
+<link rel="stylesheet" href="jadwal.css">
+</head>
+
+<body>
+
+<header>
+<h1>Sistem Informasi Jadwal Dokter</h1>
+<p>Klinik Sehat - Informasi Jadwal Praktik Dokter</p>
+</header>
+
+<div class="container">
+
+<img src="https://images.unsplash.com/photo-1584982751601-97dcc096659c"
+class="banner">
+
+<h2>Informasi Klinik</h2>
+
+<p>
+Membantu pasien melihat jadwal praktik dokter dengan mudah
+sebelum datang ke klinik.
+</p>
+
+<h2>Jadwal Dokter</h2>
+
+<table>
+
+<tr>
+<th>No</th>
+<th>Nama Dokter</th>
+<th>Spesialis</th>
+<th>Hari</th>
+<th>Jam Praktik</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Dr. Kylie</td>
+<td>Dokter Umum</td>
+<td>Senin - Rabu</td>
+<td>08:00 - 12:00</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Dr. Velisha</td>
+<td>Dokter Anak</td>
+<td>Selasa - Kamiss</td>
+<td>09:00 - 13:00</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Dr. Arsya</td>
+<td>Dokter Gigi</td>
+<td>Selasa - Jumat</td>
+<td>10:00 - 14:00</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Dr. Jenner</td>
+<td>Dokter Kandungan</td>
+<td>Selasa - Jumat</td>
+<td>10:00 - 14:00</td>
+</tr>
+
+</table>
+
+<h2>Cek Jadwal Dokter</h2>
+
+<form onsubmit="sapaUser(event)">
+
+<label>Masukkan Nama Anda</label>
+
+<input type="text" id="nama" placeholder="Contoh: Budi">
+
+<button type="submit">Cek</button>
+
+</form>
+
+<p id="hasil"></p>
+
+</div>
+
+<footer>
+<p>© 2026 Sistem Informasi Jadwal Dokter</p>
+</footer>
+
+<script src="jadwal.js"></script>
+
+</body>
+</html>
